@@ -1,11 +1,7 @@
 import React, { useState } from 'react';
-// Fixed frontend API URL configuration
 import MovieList from './components/MovieList';
-// Fixed frontend API URL configuration
 import MovieDetails from './components/MovieDetails';
-// Fixed frontend API URL configuration
 import './App.css';
-// Fixed frontend API URL configuration
 
 export default function App() {
   const [selectedMovie, setSelectedMovie] = useState(null);
