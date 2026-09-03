@@ -70,3 +70,4 @@ jobs:
           tags: mp-frontend:${{ github.sha }}
           build-args: |
             REACT_APP_MOVIE_API_URL=http://localhost:5000
+
